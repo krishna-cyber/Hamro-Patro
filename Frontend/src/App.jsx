@@ -1,15 +1,13 @@
 /** @format */
-
-import { useState } from "react";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div className=' container mx-auto'>
         <Navbar />
+        <Footer />
       </div>
     </>
   );
